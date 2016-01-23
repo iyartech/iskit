@@ -1,0 +1,57 @@
+@import "../../../atlanta/assets/css/style.css";
+
+/* Your CSS code goes here
+-------------------------------------- */
+/*Share icone cercle*/
+div.sharedaddy a.sd-button {
+border-radius: 11px !important;
+border: 0px solid #fff!important;
+}
+
+div.sharedaddy .no-text {
+width: 18px!important;
+height: 18px!important;
+padding: 5px!important;
+}
+/*END Share icone cercle*/
+
+/*PRODUCT image size in product page*/
+@media (min-width: 768px) {
+.woocommerce div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page #content div.product div.summary {width: 70%;}
+.woocommerce div.product div.images, .woocommerce-page div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page #content div.product div.images {width: 30%;}
+}
+
+/*remove read more butten from store page*/
+
+.page-id-1063 .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+display: none;
+}
+
+/*END remove read more butten from store page*/
+
+/*Google calender event style*/
+.gce-page-list .gce-list .gce-list-event {
+background-color: #FFF;
+border-radius: 3px;
+/*color: #000;*/
+padding-right: 3px;
+height: 25px;
+width: 250px;
+}
+
+.gce-page-list .gce-list .gce-list-title {
+	text-decoration: underline;
+}
+
+.gce-event-info .gce-tooltip-event {
+background-color: #FFF;
+text-align: right;
+}
+.gce-event-info .gce-tooltip-title{
+text-align: right;	
+}
+/*END Google calender event style*/
+
+/*top bar widget side by side*/
+#top-bar section.widget {display: inline-block;}
+/*top bar widget side by side*/
